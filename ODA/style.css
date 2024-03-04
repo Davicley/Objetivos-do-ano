@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+:root{
+    --cor-de-fundo: black; 
+    --texto1: rgb(252, 252, 252);
+    --texto2: rgb(7, 77, 148);
+    --botao-ativo: yellow;
+    --botao-inativo: green;
+    --texto-fundo: pink;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    font-family: "Sedgwick Ave", cursive;
+}
