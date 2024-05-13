@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --cor-de-fundo: black; 
+    --texto1: rgb(255, 255, 255);
+    --texto2: rgb(7, 77, 148);
+    --botao-ativo: rgb(255, 255, 255);
+    --botao-inativo: rgb(255, 255, 255);
+    --texto-fundo: rgb(156, 21, 21);
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    font-family: "Sedgwick Ave", cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.botao{
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    font-size: 25px;
+    border-color: rgb(161, 0, 0);
+    font-family: "Lobster", sans-serif;
+    background-color: var(--botao-inativo);
+    display: flex;
+    color: var(--texto1);
+    justify-content: center;
+    padding: 0,3em;
+    align-items: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border-width: 5px;
+}
+
+.botao:hover{
+    font-size: medium;
+}
+.Conteudo-Principal{
+    background-image: url(_.jpeg);
+    height: 100vh;
+    background-repeat: repeat;
+} 
+.Titulo-Principal{
+    text-align:center;
+    width: 100%;
+    font-size: 50px;
+}
+.botoes{
+    display: flex;
+}
+
+.botao:nth-child(2){
+    border-radius: 40px 0 40px 0;
+}
+.botao:nth-child(3){
+    border-radius: 40px 0 40px 0;
+}
+.botao:nth-child(4){
+    border-radius: 0 40px 0 40px;
+}
+.botao:last-child{
+    border-radius: 0 40px 0 40px;
+}
+.botao.ativo{
+    background: var(--botao-ativo);
+    color: rgb(214, 0, 0);
+}
+.abatexto{
+    background-color: var(--texto-fundo);
+    padding: 20px;
+    margin:0 22px;
+    border-radius: 0 0 40px 40px;
+    font-size: 25px;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo-Titulo-Principal{
+    font-size: 40px;
+    font-family:  "Philosopher", sans-serif;
+    text-align: center;
+}
+.aba-conteudo-Titulo-Secundario{
+    color: var(--texto1);
+    text-transform: initial;
+    letter-spacing: 5px;
+    line-height: 68px;
+    text-align:center;
+}
+.texto-fundo{
+    border: 80px;
+}
+
+.extra{
+    display: none;
+    font-family: "Tapestry", serif;
+    color: aliceblue;
+    font-size: 30px;
+}
+.contador{
+    font-size: 23px;
+    text-align: center;
+    padding: 1 em;
+    letter-spacing: 2px;
+}
